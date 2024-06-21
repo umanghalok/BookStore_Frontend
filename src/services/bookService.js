@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API_URL = 'https://bookstore-backend-232e.onrender.com/';
+const API_URL = 'https://bookstore-backend-232e.onrender.com';
 
 const getAllBooks = async () => {
   return await axios.get(`${API_URL}/books`);

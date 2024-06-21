@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://bookstore-backend-232e.onrender.com/';
+const API_URL = 'https://bookstore-backend-232e.onrender.com';
 
 
 const userSignup = async (signup) => {
