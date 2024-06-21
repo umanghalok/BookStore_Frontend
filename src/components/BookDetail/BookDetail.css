@@ -1,0 +1,70 @@
+/* BookDetail.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.detail-container {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 2.2em;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+p {
+  font-size: 1.1em;
+  color: #555;
+  margin: 8px 0;
+}
+
+.action-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.action-links a,
+.action-links button {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.action-links a {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.action-links a:hover {
+  background-color: #0056b3;
+}
+
+.action-links button {
+  background-color: #dc3545;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.action-links button:hover {
+  background-color: #c82333;
+}
